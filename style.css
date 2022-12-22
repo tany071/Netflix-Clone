@@ -1,0 +1,279 @@
+:root {
+    --primary-color: #e50914;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #000;
+    color: #999;
+
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #fff;
+}
+
+h1 
+{
+    margin-bottom: 14px;
+    font-size: 4 rem;
+}
+
+h2{
+    font-size: 1.25rem;
+
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+p {
+    margin: 0.5rem 0;
+}
+
+.showcase {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: url('img/netflix_bg 1.png');
+    display: inline-block;
+}
+
+.showcase-top {
+    position: relative;
+    z-index: 2;
+    height: 90px;
+    display: inline-block;
+    left: 3%;
+}
+
+.showcase-top img {
+    width: 170px;
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    /* margin-left: 0; */
+    /* transform: translate(-50%, -50%); */
+
+}
+
+.showcase-top a {
+    position: relative;
+    top: 50%;
+    right: 0;
+
+}
+
+.showcase-content {
+    position: relative;
+    z-index: 2;
+    width: 65%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.showcase-content h1 {
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 1.1;
+    margin: 0 0 1.5rem;
+}
+
+.subtext1 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.7rem;
+    line-height: 1.25;
+    margin: 0 0 2rem;
+}
+
+.subtext2 {
+    color: #fff;
+    font-weight: 100;
+    font-size: 1rem;
+    /* line-height: 1.25; */
+    margin: 0 0 1rem;
+
+}
+
+.right {
+    position: absolute;
+    right: 5%;
+    top: 40px;
+    display: inline-block;
+    /* border: 2px solid white; */
+
+}
+
+.btn {
+    margin: 0px 5px 5px 5px;
+    background-color: var(--primary-color);
+    width: 80px;
+    font-size: 14px;
+    /* border: 1px solid #eee; */
+    color: white;
+    height: 35px;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+
+
+.right select {
+    margin: 0px 5px;
+    background-color: black;
+    border: #fff;
+    width: 80px;
+    font-size: 14px;
+    border: 1px solid #fff;
+    height: 35px;
+    color: #fff;
+    padding: 5px;
+    overflow: hidden;
+
+
+}
+
+
+/* .form{
+    display: flex;
+    flex-direction: row; 
+    margin: 0px;
+    border:1px solid grey;
+ padding:2px; 
+} */
+
+
+.window {
+    margin: auto;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: left; */
+    /* align-items: center; */
+    /* text-align: left; */
+    /* margin-top: 10rem; */
+    height: 50px;
+    width: 40%;
+    font-size: 100%;
+    padding: 8px;
+    margin-left: 23%;
+}
+
+.submit {
+    background-color: var(--primary-color);
+    color: #fff;
+    height: 50px;
+    width: 15%;
+    font-size: 20px;
+    /* display: flex; */
+
+}
+
+.container {
+    /* display: flex;
+    flex-direction: row; */
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 150px ;
+    max-width: 1100px;
+    /* height: 100vh; */
+}
+ 
+
+ 
+
+.text1 {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 700px;
+    flex-direction: column;
+}
+
+ 
+
+
+
+ 
+
+ 
+ 
+
+#reverse{
+    flex-direction: row-reverse;
+}
+
+.footer{
+    margin-top: -46px;
+    width: 100%;
+    padding: 50px 15%;
+    background: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footerhead{
+    margin-top: 150px;
+    width: 100%;
+    padding: 50px 15%;
+    background: black;
+    text-align: center;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    /* color: #999; */
+}
+
+.footer div{
+    text-align:center;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+    color: #999;
+}
+
+.box{
+    width: 100%;
+    height: 10px;
+    background: rgb(48, 48, 48);
+
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+ 
